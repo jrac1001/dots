@@ -620,9 +620,9 @@ export PATH=$PATH:"$HOME/.local/bin:$HOME/.cargo/bin:/var/lib/flatpak/exports/bi
 eval "$(starship init bash)"
 eval "$(zoxide init bash)"
 # or use:
-<< cmt
-#export PS1="┌──\[ \$(date +%H:%M:%S)\] - [\[\w\]]
-└─\$ "
-cmt
-
 # '
+export PS1="┌──\[ \$(date +%H:%M:%S)\] - [\[\w\]]
+└─\$ "
+
+
+
